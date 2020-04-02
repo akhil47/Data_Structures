@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Source_Files/AVLTree.h
+iostream
+-
+
+../Source_Files/PrefixTree.h
+
+../Source_Files/RedBlackTree.h
+iostream
+-
+
+/Users/akhil/Library/Mobile Documents/com~apple~CloudDocs/Data_Structures/main.cpp
+iostream
+-
+bits/stdc++.h
+-
+RedBlackTree.h
+-
+chrono
+-
+AVLTree.h
+-
+PrefixTree.h
+-
+
